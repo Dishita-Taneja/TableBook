@@ -19,31 +19,6 @@ All data is stored in your browser's `localStorage`.
 - **Motion** — micro-interactions and a one-time load stagger; all ≤ 400ms and
   fully disabled when `prefers-reduced-motion` is set
 
-## Colour system
-
-| Token | Value |
-| --- | --- |
-| Purple | `#8B5CF6` |
-| Deep purple (accent) | `#6D28D9` |
-| Light purple | `#EDE7FF` |
-| White | `#FFFFFF` |
-
-Typeface pairing: **Sora** (display) + **Inter** (body), loaded from Google Fonts over HTTPS.
-
-## Run locally
-
-No build. Just open the file:
-
-```bash
-open index.html
-```
-
-or serve the folder with any static server:
-
-```bash
-npx serve .
-```
-
 ## Project structure
 
 ```
@@ -67,8 +42,16 @@ TableBook/
         ├── reports.js
         └── tables.js
 ```
+## Run locally
 
-## Storage keys
+No build. Just open the file:
 
-`tablebook.db.v1`, `tablebook.users`, `tablebook.session`, `tablebook.page`, `tablebook.theme`.
-Clear your site data to reset the demo.
+```bash
+open index.html
+```
+
+or serve the folder with any static server:
+
+```bash
+npx serve .
+```
